@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+body,
+div,
+span,
+a,
+p,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+button {
+  transition: 0.4s ease;
+  &:hover {
+    background-color: tomato;
+  }
+}
+
