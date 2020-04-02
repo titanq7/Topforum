@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    
+    <title>Topforum</title>
+  </head>
+
+
+<body>
+  <header>
+
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4">
+          <nav>
+            <ul class="menu__list d-flex">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Sponsors</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Exhibitors</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Speakers</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Media</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-2 offset-6">
+          <button class="menu__button">TOP FORUM CLUB</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="menu__second header--border">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 d-flex align-items-center">
+          <a href="#" class="header__logo"><img src="images/icons/header__logo.png" alt=""></a>
+          <a href="#" class="menu__second-cup"><img src="images/icons/header__icon-cup.png" alt="header__icon-cup"></a>
+          <a href="#" class="menu__second-event menu__second-link">UPCOMING EVENTS</a>
+          <a href="#" class="menu__second-flag"><img src="images/icons/header__icon-flag.png" alt="header__icon-flag"></a>
+          <a href="#" class="menu__second-contacts menu__second-link">CONTACTS</a>
+
+        </div>
+        <div class="col-2 offset-4">
+          <button class="menu__second-button">REGISTER NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="wrapper">
+
+    <div class="content">
+
+
+      <section class="registration">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <div class="registration__title">2 EASY STEPS TO REGISTER</div>
+            </div>
+            <div class="registration__info">
+              <div class="registration__info-fill registration__info_arrow">FILL IN THE FORM IN ENGLISH</div>
+            </div>
+
+            <div class="registration__info registration__info_space">
+              <div class="registration__info-read">READ THOROUGHLY TERMS&CONDITIONS </div>
+            </div>
+          </div>
+
+          <form>
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Please, choose a conference:</span>
+            </div>
+            <div class="registration__column-enter">
+              <div class="sponsors__wrapper">
+                <div class="sponsors__select ">
+                  <select name="conference"  class="conference">
+                    <option value="1">Wealth TOP FORUM Israel 2018</option>
+                    <option value="2">Wealth TOP FORUM Israel 2017</option>
+                    <option selected value="3">Wealth TOP FORUM Israel 2016</option>
+                    <option value="4">Wealth TOP FORUM Israel 2015</option>
+                    <option value="5">Wealth TOP FORUM Israel 2014</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Please choose delegate package:</span>
+            </div>
+            <div class="registration__column-enter">
+              <div class="sponsors__wrapper">
+                <button class="registration__button">Standard</button>
+                <button class="registration__button">Premium</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Name:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Surname:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Company Name:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Business Area:</span>
+            </div>
+            <div class="registration__column-enter">
+              <div class="sponsors__wrapper">
+                <div class="sponsors__select ">
+                  <select name="conference" id="conference" class="conference">
+                    <option value="1">Wealth TOP FORUM Israel 2018</option>
+                    <option value="2">Wealth TOP FORUM Israel 2017</option>
+                    <option selected value="3">Forex companies</option>
+                    <option value="4">Wealth TOP FORUM Israel 2015</option>
+                    <option value="5">Wealth TOP FORUM Israel 2014</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Position:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input required type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">E-mail (for organizers):</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">E-mail (for sponsors):</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Mobile Number (for organizers):</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Country:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text">
+              <span class="registration__information">Web-site:</span>
+            </div>
+            <div class="registration__column-enter registration__column-space">
+              <input type="text" class="registration__column-input">
+            </div>
+          </div>
+
+          <div class="registration__wrapper registration__wrapper_padding">
+            <div class="registration__column-text">
+              <span class="registration__information">Please choose delegate package:</span>
+            </div>
+            <div class="registration__column-enter">
+              <div class="sponsors__wrapper">
+                <button class="registration__button registration__button_pay">free</button>
+                <button class="registration__button registration__button_pay">Premium</button>
+                <button class="registration__button registration__button_pay">Invoice</button>
+                <button class="registration__button registration__button_pay">Invoice</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="registration__wrapper">
+            <div class="registration__column-text"></div>
+            <div class="registration__column-enter registration__wrapper_end">
+              <div class="sponsors__wrapper registration__wrapper_end">
+                <label class="check__option">
+                  <input class="check__input" type="checkbox">
+                  <span class="check__box"></span>
+                </label>               
+                <button class="registration__button_submit registration__button">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+
+      </section>
+
+
+
+
+    </div>
+
+
+
+    <div class="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-6 d-flex">
+        <nav class="column__first">
+          <ul class="footer__menu">
+            <li class="footer__menu">
+              <a class="footer__menu-link footer__menu-main" href="#">TOP FORUM</a>
+            </li>
+            <li class="footer__menu">
+              <a class="footer__menu-link" href="#">Sponsors</a>
+            </li>
+            <li class="footer__menu">
+              <a class="footer__menu-link" href="#">Exhibitors</a>
+            </li>
+            <li class="footer__menu">
+              <a class="footer__menu-link" href="#">Speakers</a>
+            </li>
+            <li class="footer__menu">
+              <a class="footer__menu-link" href="#">Media</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="footer__second">
+          <li class="footer__menu">
+            <a class="footer__menu-link footer__menu-main" href="#">CONTACT</a>
+          </li>
+          <li class="footer__menu">
+            <a class="footer__menu-link" href="#">Top Forum Group</a>
+          </li>
+          <li class="footer__menu">
+            <a class="footer__menu-link footer__menu--space" href="#">Trnavska cesta 82, 821 02 Bratislava, Slovakia</a>
+          </li>
+          <li class="footer__menu">
+            <a class="footer__menu-link" href="tel:+421221025322">+421 221 025 322</a>
+          </li>
+          <li class="footer__menu">
+            <a class="footer__menu-link" href="mailto:info@top forum.com">info@top forum.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-2 offset-4">
+        <div class="footer__follow">
+          <a class="footer__follow-link footer__menu-main" href="#">FOLLOW US</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row footer__bottom-row">
+      <div class="col-4">
+        <div class="footer__bottom-text">© 2014 Top Forum Group. All rights reserved.</div>
+      </div>
+      <div class="col-3 offset-5 d-flex align-middle">
+        <div class="footer__logo-text">Website development:</div>
+        <a class="footer__logo" href="#"><img src="images/footer__logo.png" alt="footer__logo"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay fade">
+    <div class="popup">
+      <div class="popup-close">&times;
+      </div>
+      <div class="popup-title">
+        <div class="popup-title-subscribe">SUBSCRIBE</div>
+        <div class="popup-title-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+
+      </div>
+      <div class="popup-form">
+        <form action="#" class="main-form">
+          <input required class="popup-form-input" type="text" placeholder="Name and surname">
+          <input required class="popup-form-input" type="text" placeholder="Company name">
+          <input required class="popup-form-input" type="text" placeholder="E-mail">
+          <button class="popup-form__btn">
+            SUBSCRIBE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </div><!-- .wrapper -->
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/libs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/popup.js"></script>
+</body>
+
+</html>
