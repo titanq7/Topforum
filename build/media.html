@@ -18,28 +18,78 @@
   <header>
 
   <div class="menu">
-    <div class="container">
+    <div class="container-lg">
       <div class="row">
 
-        <div class="col-4">
+        <div class="col-auto col-sm-2 col-md-4 col-lg-4">
           <nav>
             <ul class="menu__list d-flex">
-              <li class="menu__item">
-                <a class="menu__link" href="#">Sponsors</a>
+              <li class="menu__item menu__link--padding">
+                <a class="menu__link menu__item-sponsors" href="#">Sponsors</a>
+
+                <ul class="menu__item-sponsors-list">
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link sponsors__link--border" href="#">General Sponsor</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link sponsors__link--border" href="#">Platinum Sponsor</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link sponsors__link--border" href="#">High-Tech Sponsor</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link sponsors__link--border" href="#">Gold Sponsor</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link sponsors__link--border" href="#">Silver Night Sponsor</a>
+                  </li>
+                </ul>
               </li>
+
               <li class="menu__item">
-                <a class="menu__link" href="#">Exhibitors</a>
+                <a class="menu__link menu__item-exhibitors" href="#">Exhibitors</a>
+                <ul class="menu__item-exhibitors-list">
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Wealth TOP FORUM Israel 2016</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Another name of the conference</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Another name of the conference 2016</a>
+                  </li>
+                </ul>
               </li>
+
               <li class="menu__item">
-                <a class="menu__link" href="#">Speakers</a>
+                <a class="menu__link menu__item-speakers" href="#">Speakers</a>
+                <ul class="menu__item-speaker-list">
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Wealth TOP FORUM Israel 2016</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Another name of the conference</a>
+                  </li>
+                  <li class="menu__item-exhibitors__item">
+                    <a class="menu__item-exhibitors__link" href="#">Another name of the conference 2016</a>
+                  </li>
+                </ul>
               </li>
+
               <li class="menu__item">
                 <a class="menu__link" href="#">Media</a>
               </li>
             </ul>
+
+            <div class="burger-menu">
+              <span class="burger-menu__line burger-menu__line1"></span>
+              <span class="burger-menu__line burger-menu__line2"></span>
+              <span class="burger-menu__line burger-menu__line3"></span>
+            </div>
+
           </nav>
         </div>
-        <div class="col-2 offset-6">
+        <div class="col-auto col-sm-auto ml-auto">
           <button class="menu__button">TOP FORUM CLUB</button>
         </div>
       </div>
@@ -48,17 +98,18 @@
   </div>
 
   <div class="menu__second header--border">
-    <div class="container">
+    <div class="container-lg">
       <div class="row">
-        <div class="col-6 d-flex align-items-center">
+        <div class="col-auto col-6 d-flex align-items-center">
           <a href="#" class="header__logo"><img src="images/icons/header__logo.png" alt=""></a>
           <a href="#" class="menu__second-cup"><img src="images/icons/header__icon-cup.png" alt="header__icon-cup"></a>
           <a href="#" class="menu__second-event menu__second-link">UPCOMING EVENTS</a>
-          <a href="#" class="menu__second-flag"><img src="images/icons/header__icon-flag.png" alt="header__icon-flag"></a>
+          <a href="#" class="menu__second-flag"><img src="images/icons/header__icon-flag.png"
+              alt="header__icon-flag"></a>
           <a href="#" class="menu__second-contacts menu__second-link">CONTACTS</a>
 
         </div>
-        <div class="col-2 offset-4">
+        <div class="col-auto col-sm-auto ml-auto">
           <button class="menu__second-button">REGISTER NOW</button>
         </div>
       </div>
@@ -71,7 +122,7 @@
     <div class="content">
 
       <section class="sponsors">
-        <div class="container">
+        <div class="container-lg">
           <div class="row">
             <div class="col-12">
               <div class="sponsors__title">ARTICLES FROM SPONSORS</div>
@@ -80,10 +131,8 @@
                 text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                 specimen book.</div>
-
             </div>
           </div>
-       
         </div>
       </section>
 
@@ -109,10 +158,7 @@
               <div class="sponsor__column-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</div>
             </div>
 
-           
-
           </div>
-
           <div class="sponsor-wrapper">
 
             <div class="sponsor__column media__column">
@@ -138,19 +184,13 @@
         </div>
       </section>
 
-
-
-
-
     </div>
 
-
-
     <div class="footer">
-  <div class="container">
-    <div class="row">
+  <div class="container-lg">
+    <div class="row justify-content-center justify-content-sm-start">
 
-      <div class="col-6 d-flex">
+      <div class="col-auto col-sm-8 d-flex">
         <nav class="column__first">
           <ul class="footer__menu">
             <li class="footer__menu">
@@ -189,7 +229,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-2 offset-4">
+      <div class="col-12 col-sm-2 ml-auto">
         <div class="footer__follow">
           <a class="footer__follow-link footer__menu-main" href="#">FOLLOW US</a>
         </div>
@@ -198,10 +238,10 @@
     </div>
 
     <div class="row footer__bottom-row">
-      <div class="col-4">
+      <div class="m-auto col-ml-auto">
         <div class="footer__bottom-text">© 2014 Top Forum Group. All rights reserved.</div>
       </div>
-      <div class="col-3 offset-5 d-flex align-middle">
+      <div class="col-auto m-auto ml-sm-auto d-flex align-middle">
         <div class="footer__logo-text">Website development:</div>
         <a class="footer__logo" href="#"><img src="images/footer__logo.png" alt="footer__logo"></a>
       </div>
@@ -231,8 +271,6 @@
   </div>
 
   </div><!-- .wrapper -->
-
-
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"

@@ -9,6 +9,7 @@
 //-----------------------------------------------------------------------------------------------------------
 
 .menu {
+  position: relative;
   min-height: 56px;
   background-color: #323232;
   display: flex;
@@ -24,7 +25,14 @@
   }
 
   &__item {
+    height: 56px;
+    display: flex;
+    align-items: center;
     padding: 0 20px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.35);
+    }
   }
 
   &__link {
@@ -38,6 +46,7 @@
   }
 
   &__button {
+    margin-top: 8px;
     padding: 13px 27px;
     border: none;
     font-size: 12px;
@@ -85,6 +94,60 @@
     cursor: pointer;
   }
 }
+
+.menu__link--padding {
+  padding-left: 20px !important;
+  margin-left: -20px;
+}
+
+.menu__item-exhibitors,
+.menu__item-speakers {
+  position: relative;
+}
+
+.menu__item-exhibitors-list,
+.menu__item-speaker-list,
+.menu__item-sponsors-list {
+  position: absolute;
+  top: 56px;
+  left: 97px;
+  width: 295px;
+  min-height: 146px;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  z-index: 10;
+  display: none;
+}
+
+.menu__item-speaker-list {
+  left: 203px;
+}
+
+.menu__item-sponsors-list  {
+  left: -5px;
+}
+
+
+.menu__item-exhibitors__link {
+  display: flex;
+  align-items: center;
+  padding: 0 21px;
+  height: 48px;
+  color: #323232;
+  font-size: 15px;
+  transition: 0.3s ease-in;
+  &:hover {
+    background-color: #d6d6d6;
+  }
+}
+
+.sponsors__link--border,
+.sponsors__link--margin {
+  margin: 0 12px;
+  padding: 0 9px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
 
 .header--border {
   border-bottom: 1px solid rgba(50, 50, 50, 0.2);
